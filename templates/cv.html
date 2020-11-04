@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Palmer Cluff's Website</title>
+
+    <meta name="viewport" content="width=device-width"/>
+    <meta name="description" content="The Website of Palmer Cluff."/>
+    <meta charset="UTF-8"> 
+
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body id="top">
+    <div id="cv" class="instaFade">
+      <div class="mainDetails">
+	<div id="headshot" class="quickFade">
+	  <img src="{{ url_for('static', filename='headshot.jpg') }}" alt="Palmer Cluff" />
+	</div>
+	
+	<div id="name">
+	  <h1 class="quickFade delayTwo">Palmer Cluff</h1>
+	  <h2 class="quickFade delayThree">Computer Scientist</h2>
+	</div>
+	
+	<div id="contactDetails" class="quickFade delayFour">
+	  <ul>
+	    <li><a href="https://www.linkedin.com/in/palmer-cluff-04ba13b6" target="_blank">linkedin.com/palmer-cluff</a></li>
+	    <li><a href="https://github.com/palmercluff" target="_blank">github.com/palmercluff</a></li>
+	    <li><a href="mailto:palmercluff@gmail.com" target="_blank">palmercluff@gmail.com</a></li>
+	    <li><a href="http://palmercluff.com">palmercluff.com</a></li>
+	    <!--<li>m: 01234567890</li>-->
+	  </ul>
+	</div>
+	<div class="clear"></div>
+      </div>
+      
+      <div id="mainArea" class="quickFade delayFive">
+	<section>
+	  <article>
+	    <div class="sectionTitle">
+	      <h1>Personal Profile</h1>
+	    </div>
+	    
+	    <div class="sectionContent">
+	      <p>I am a DevOps and fullstack engineer. I love using Debian GNU/Linux as my daily driver as well as free and open source software (FOSS) wherever possible. I think the Agile Scrum methodology is a great framework for keeping track of personal tasks, as well as managing projects with multiple individuals. I've made software applications from scratch for startup companies, and I've enhanced existing large-scale software applications for large corporations. I think self-hosting server applications makes for great learning experiences, and also helps save money over paying for some subscription service.</p>
+	      <p>For fun I like to travel abroad, blog, and play retro games!</p>
+	    </div>
+	  </article>
+	  <div class="clear"></div>
+	</section>
+	
+	<section>
+	  <div class="sectionTitle">
+	    <h1>Work Experience</h1>
+	  </div>
+	  
+	  <div class="sectionContent">
+	    <article>
+	      <h2>Software Developer/Analyst at ON Semiconductor</h2>
+	      <p class="subDetails">Oct 2018 - Present | 2 yrs 2 mos</p>
+	      <p class="subDetailsTech">Android, AWS, Bitbucket, C#, Cisco Webex, Confluence, Docker, Git, iOS, Java, JavaScript, Jenkins, JIRA, Microsoft SQL Server, Microsoft Teams, Model N, Node.js, Oracle PL/SQL, PostgreSQL, Red Hat Linux, Shell Scripting, Spring Boot, SysAid, SQLite3, Xamarin</p>
+	      <p>DevOps engineer and fullstack developer. Spearheaded and enhanced several "web-related" projects responsible for bringing in billions of dollars worth of revenue. Worked across multiple teams located in the USA, China, Hong Kong, and Malaysia.</p>
+	    </article>
+	    
+	    <article>
+	      <h2>Software Developer at The Hovercam</h2>
+	      <p class="subDetails">Jun 2017 - Sep 2018 | 1 yr 4 mos</p>
+	      <p class="subDetailsTech">Android, Angular, AWS, C#, Firebase, Git, GNU/Linux, HTML5, Ionic, iOS, JavaScript, MongoDB, Node.js, NW.js, Trello, Websockets, WPF</p>
+	      <p>Lead developer for classroom response system (Clickers) and "Magic Ink" using real-time HTML5 websockets. MEAN stack development for smart panel, desktop, and mobile applications. Primary system adminsitrator for AWS EC2 GNU/Linux servers.</p>
+	    </article>
+	    
+	    <article>
+	      <h2>Embedded Software Engineer at NetAngel</h2>
+	      <p class="subDetails">Oct 2016 - May 2017 | 8 mos</p>
+	      <p class="subDetailsTech">AJAX, Bootstrap, CSS, Digital Ocean, Git, GNU/Linux, HTML5, JavaScript, jQuery, Lua, LuCI MVC, OpenWRT, OpenVPN, Shell Scripting, SQLite3, Tinyproxy</p>
+	      <p>Wrote and compiled custom OpenWRT firmware for new NetAngel routers. Fullstack OpenWRT development using the LuCI MVC micro-framework. Created a server-side application which blocks users coming from the TOR network, and stays updated with current list of TOR nodes.</p>
+	    </article>
+
+	    <article>
+	      <h2>Computer Integerated Manufacturing Intern at ON Semiconductor</h2>
+	      <p class="subDetails">Apr 2016 - Aug 2016 | 5 mos</p>
+	      <p class="subDetailsTech">ASP.NET MVC, CSS, HTML5, Java, JavaScript, Mercurial, Oracle PL/SQL, Red Hat Linux</p>
+	      <p>Enhanced internal software applications that play a crucial role in the production of semiconductors. Analyzed and tested business applications running on Linux web servers to determine if they needed to be imporved or replaced. Worked with team members located on-site and off-site.</p>
+	    </article>
+	  </div>
+	  <div class="clear"></div>
+	</section>
+
+	<section>
+	  <div class="sectionTitle">
+	    <h1>Personal Projects</h1>
+	  </div>
+	  
+	  <div class="sectionContent">
+	    <article>
+	      <h2>This Page (If viewing on the website)</h2>
+	      <p class="subDetails">Oct. 2020 - Present</p>
+	      <p class="subDetailsTech">Apache, Flask, Python</p>
+	      <p><a href="http://palmercluff.com">My CV Website</a></p>
+	    </article>
+	    
+	    <article>
+	      <h2>Japaniku</h2>
+	      <p class="subDetails">Oct. 2020 - Present</p>
+	      <p class="subDetailsTech">Apache, Jekyll, Ruby</p>
+	      <p><a href="http://palmercluff.com/japan-blog" target="_blank">Japaniku - My Japan travel blog</a></p>
+	    </article>
+	    
+	    <article>
+	      <h2>Home Automation</h2>
+	      <p class="subDetails">Jan. 2020 - Present</p>
+	      <p class="subDetailsTech">Apache, Google Assistant, IFTTT, Mozilla WebThings Gateway, PHP, Raspberry Pi, Webhooks</p>
+	      <p>Using services such as Mozilla WebThings Gateway, Google Assistant, IFTTT, Webhooks to automate any device that can connect to the internet, whether it be a server or a client.</p>
+	    </article>
+	    
+	    <article>
+	      <h2>x86 Blog</h2>
+	      <p class="subDetails">Jan. 2020 - Present</p>
+	      <p class="subDetailsTech">PHP, Wordpress</p>
+	      <p><a href="https://x86blog.com" target="_blank">x86 Blog - My technical blog</a></p>
+	    </article>
+
+	    <article>
+	      <h2>Misc. Github Repositories</h2>
+	      <p class="subDetails">Feb. 2015 - Present</p>
+	      <p><a href="https://github.com/palmercluff" target="_blank">GitHub Profile</a></p>
+	    </article>
+	  </div>
+	  <div class="clear"></div>
+	</section>
+	
+	<section>
+	  <div class="sectionTitle">
+	    <h1>Key Skills</h1>
+	  </div>
+	  
+	  <div class="sectionContent">
+	    <ul class="keySkills">
+	      <li>Automation</li>
+	      <li>Backend Stack</li>
+	      <li>Communication</li>
+	      <li>Debian</li>
+	      <li>Dependable</li>
+	      <li>Development</li>
+	      <li>Documentation</li>
+	      <li>English</li>
+	      <li>Frontend Stack</li>
+	      <li>Fullstack</li>
+	      <li>GNU/Linux</li>
+	      <li>Independent</li>
+	      <li>Japanese</li>
+	      <li>Leadership</li>
+	      <li>Mac OS X</li>
+	      <li>Microsoft Windows</li>
+	      <li>Programming</li>
+	      <li>Raspberry Pi</li>
+	      <li>Shell Scripting</li>
+	      <li>Source Control</li>
+	      <li>Sys. Administration</li>
+	      <li>Teamwork</li>
+	      <li>Unit Testing</li>
+	    </ul>
+	  </div>
+	  <div class="clear"></div>
+	</section>
+
+	<section>
+	  <div class="sectionTitle">
+	    <h1>Volunteer Service</h1>
+	  </div>
+	  
+	  <div class="sectionContent">
+	    <article>
+	      <h2>Missionary for The Church of Jesus Christ of Latter-day Saints</h2>
+	      <p class="subDetails">Jan 2011 - Feb 2013 | 1 yr 1 mos</p>
+	      <p class="subDetailsTech">English, Japanese</p>
+	      <p>Volunteered as a representitive for the Church of Jesus Christ of Latter-day Saints in Japan. Taught the Gospel of Jesus Christ in the Japanese language and lead English conversation classes. Analyzed team statistics to determine weekly training topics and teaching methods. Planned, conducted, and taught at meetings with groups of up to 20 other volunteers on ethics, communication, and teaching skills.</p>
+	    </article>
+	  </div>
+	  <div class="clear"></div>
+	</section>
+	
+	<section>
+	  <div class="sectionTitle">
+	    <h1>Education</h1>
+	  </div>
+	  
+	  <div class="sectionContent">
+	    <article>
+	      <h2>Brigham Young University - Idaho</h2>
+	      <p class="subDetails">Sep 2010 - Dec 2016</p>
+	      <p>Bachelor of Science in Computer Science. Also worked as a Computer Science tutor and raquetball instructor during my study.</p>
+	    </article>
+	  </div>
+	  <div class="clear"></div>
+	</section>
+	
+      </div>
+    </div>
+  </body>
+</html>
